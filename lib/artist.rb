@@ -7,7 +7,7 @@ attr_accessor :name, :songs
   end
 
   def songs
-    Song.all
+    @songs
   end
 
   def add_song(song)
