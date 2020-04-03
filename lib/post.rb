@@ -7,4 +7,12 @@ def initialize(title)
   @@all << self
 end
 
+def self.all
+  @@all
+end
+
+def title
+  post.title
+end
+
 end
