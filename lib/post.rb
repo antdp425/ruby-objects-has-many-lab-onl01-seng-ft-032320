@@ -20,7 +20,7 @@ attr_accessor :title, :author, :name
   end
 
   def author_name
-    self.author.name
+    self.author
   end
 
 end
