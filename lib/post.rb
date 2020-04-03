@@ -16,7 +16,7 @@ attr_accessor :title, :author, :name
   end
 
   def author
-    @author
+    Author.author
   end
 
   def author_name
