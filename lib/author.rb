@@ -5,6 +5,6 @@ def initialize(name)
   @name = name
 end
 
-
+def posts
 
 end
