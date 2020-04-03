@@ -16,7 +16,7 @@ attr_accessor :name, :artist
   end
 
   def artist_name
-    self.artist.name ||= nil
+    self.artist.name
   end
 
 end
