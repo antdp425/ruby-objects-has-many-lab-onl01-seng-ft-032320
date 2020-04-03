@@ -12,7 +12,11 @@ def self.all
 end
 
 def title
-  post.title
+  @title
+end
+
+def author
+  @author
 end
 
 end
