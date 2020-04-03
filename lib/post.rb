@@ -13,7 +13,7 @@ attr_accessor :title, :author
 
 
   def author_name
-    puts self.author.name
+    self.author.name if author
   end
 
 end
