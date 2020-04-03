@@ -11,6 +11,10 @@ attr_accessor :name, :artist
     @@all
   end
 
+  def artist
+    self.artist
+  end
+
   def artist_name
     self.artist.name
   end
