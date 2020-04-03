@@ -7,7 +7,7 @@ def initialize(name)
 end
 
 def posts
-#
+Posts.all.select {|posts| posts.author == self}
 end
 
 def add_post(post)
