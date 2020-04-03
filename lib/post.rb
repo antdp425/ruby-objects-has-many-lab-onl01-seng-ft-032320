@@ -19,10 +19,6 @@ attr_accessor :title, :author, :name
     @author
   end
 
-  def name
-    @name
-  end
-
   def author_name
     self.author.name
   end
