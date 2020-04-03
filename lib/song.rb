@@ -12,7 +12,7 @@ attr_accessor :name
   end
 
   def artist
-    self.artist
+    song.artist
   end
 
   def artist_name
