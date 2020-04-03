@@ -12,7 +12,7 @@ attr_accessor :name, :artist
   end
 
   def artist
-    artist
+    @artist
   end
 
   def artist_name
