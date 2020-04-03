@@ -12,7 +12,7 @@ attr_accessor :name, :artist
   end
 
   def artist
-    artist
+    Artist.all.select {|artist| artist.song == self}
   end
 
   def artist_name
