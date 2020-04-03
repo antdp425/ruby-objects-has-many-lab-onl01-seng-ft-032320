@@ -25,11 +25,4 @@ attr_accessor :name, :songs
     Song.all.count
   end
 
-
-
-
-
-
-
-
 end
